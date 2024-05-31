@@ -1,0 +1,35 @@
+
+
+error[E06001]: unused value without 'drop'
+   ┌─ ./sources/exp.move:9:37
+   │
+ 8 │         let (coin, receipt) = flash::loan(lender, 1000, ctx);
+   │              ---- The local variable 'coin' still contains a value. The value does not have the 'drop' ability and must be consumed before the function returns
+ 9 │         flash::get_flag(lender, ctx);
+   │                                     ^ Invalid return
+   │
+   ┌─ ./../movectf2022_flashloan/sources/movectf2022_flashloan.move:54:9
+   │
+54 │     ): (Coin<FLASH>, Receipt) {
+   │         ----------- The type 'sui::coin::Coin<movectf2022_flashloan::flash::FLASH>' does not have the ability 'drop'
+   │
+   ┌─ /home/kali/.move/https___github_com_MystenLabs_sui_git_framework__testnet/crates/sui-framework/packages/sui-framework/sources/coin.move:35:19
+   │
+35 │     public struct Coin<phantom T> has key, store {
+   │                   ---- To satisfy the constraint, the 'drop' ability would need to be added here
+
+error[E06001]: unused value without 'drop'
+   ┌─ ./sources/exp.move:9:37
+   │
+ 8 │         let (coin, receipt) = flash::loan(lender, 1000, ctx);
+   │                    ------- The local variable 'receipt' still contains a value. The value does not have the 'drop' ability and must be consumed before the function returns
+ 9 │         flash::get_flag(lender, ctx);
+   │                                     ^ Invalid return
+   │
+   ┌─ ./../movectf2022_flashloan/sources/movectf2022_flashloan.move:24:19
+   │
+24 │     public struct Receipt {
+   │                   ------- To satisfy the constraint, the 'drop' ability would need to be added here
+   ·
+54 │     ): (Coin<FLASH>, Receipt) {
+   │                      ------- The type 'movectf2022_flashloan::flash::Receipt' does not have the ability 'drop'

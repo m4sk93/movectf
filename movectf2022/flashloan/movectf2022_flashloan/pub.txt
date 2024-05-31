@@ -1,0 +1,63 @@
+
+╭───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│ Object Changes                                                                                                            │
+├───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┤
+│ Created Objects:                                                                                                          │
+│  ┌──                                                                                                                      │
+│  │ ObjectID: 0x3af086954c085322fa544445b8da52383b5d4d19485691cbf3634cca981bcd1a                                           │
+│  │ Sender: 0xfd72aa1c93c65b9487ca060a32bff2851624117d35078f54618384b1e0d16849                                             │
+│  │ Owner: Account Address ( 0xfd72aa1c93c65b9487ca060a32bff2851624117d35078f54618384b1e0d16849 )                          │
+│  │ ObjectType: 0x2::coin::TreasuryCap<0x2a61d471519b8e85a7730bebcfc3c5cace6ffffb2f5576d593821422d514adc2::flash::FLASH>   │
+│  │ Version: 1248935                                                                                                       │
+│  │ Digest: 8mq8HnMrApnABUGRN5nEeXPH7aRGBnndTEnzGXrLk5fD                                                                   │
+│  └──                                                                                                                      │
+│  ┌──                                                                                                                      │
+│  │ ObjectID: 0x92dc86d8b7aeb9ecc28afed389cd4b1c64f38ae43e6efed0a67b03ca0339606c                                           │
+│  │ Sender: 0xfd72aa1c93c65b9487ca060a32bff2851624117d35078f54618384b1e0d16849                                             │
+│  │ Owner: Immutable                                                                                                       │
+│  │ ObjectType: 0x2::coin::CoinMetadata<0x2a61d471519b8e85a7730bebcfc3c5cace6ffffb2f5576d593821422d514adc2::flash::FLASH>  │
+│  │ Version: 1248935                                                                                                       │
+│  │ Digest: FARc9uQbykjHfm7Wvhut4jydaf2LAwLn95xP1A8ac9Jz                                                                   │
+│  └──                                                                                                                      │
+│  ┌──                                                                                                                      │
+│  │ ObjectID: 0xa2431d0b8ab54690234a57d100f514f04823789c8892428ac87634e9eb304a05                                           │
+│  │ Sender: 0xfd72aa1c93c65b9487ca060a32bff2851624117d35078f54618384b1e0d16849                                             │
+│  │ Owner: Shared                                                                                                          │
+│  │ ObjectType: 0x2a61d471519b8e85a7730bebcfc3c5cace6ffffb2f5576d593821422d514adc2::flash::FlashLender                     │
+│  │ Version: 1248935                                                                                                       │
+│  │ Digest: 9ejGUMZBSV654Vhrvo13GUc3hFLJgC8vMzaQEBspo7H4                                                                   │
+│  └──                                                                                                                      │
+│  ┌──                                                                                                                      │
+│  │ ObjectID: 0xf26746b52035eb17c11a5b26c68fdedf4fd6b9621195439e30cf22f73ead6f8a                                           │
+│  │ Sender: 0xfd72aa1c93c65b9487ca060a32bff2851624117d35078f54618384b1e0d16849                                             │
+│  │ Owner: Account Address ( 0xfd72aa1c93c65b9487ca060a32bff2851624117d35078f54618384b1e0d16849 )                          │
+│  │ ObjectType: 0x2::package::UpgradeCap                                                                                   │
+│  │ Version: 1248935                                                                                                       │
+│  │ Digest: 4apuPgizZu7R7P9WtKQgUBdPWFSWQ9P6pH6Dp7FwFxyx                                                                   │
+│  └──                                                                                                                      │
+│ Mutated Objects:                                                                                                          │
+│  ┌──                                                                                                                      │
+│  │ ObjectID: 0xcea6f731efac08bc770b051a6b48b2a1a2b6203b07367e75a0b164d53ee4cd17                                           │
+│  │ Sender: 0xfd72aa1c93c65b9487ca060a32bff2851624117d35078f54618384b1e0d16849                                             │
+│  │ Owner: Account Address ( 0xfd72aa1c93c65b9487ca060a32bff2851624117d35078f54618384b1e0d16849 )                          │
+│  │ ObjectType: 0x2::coin::Coin<0x2::sui::SUI>                                                                             │
+│  │ Version: 1248935                                                                                                       │
+│  │ Digest: 3xZVMZyiLrouoEuZg3f96dosrGSLghP36Mh8jFVAt3Aj                                                                   │
+│  └──                                                                                                                      │
+│ Published Objects:                                                                                                        │
+│  ┌──                                                                                                                      │
+│  │ PackageID: 0x2a61d471519b8e85a7730bebcfc3c5cace6ffffb2f5576d593821422d514adc2                                          │
+│  │ Version: 1                                                                                                             │
+│  │ Digest: G6mfmFyAf6C9GBh32cVHjoW9zW6Gfj8Kdn6wEb3AGJ2x                                                                   │
+│  │ Modules: flash                                                                                                         │
+│  └──                                                                                                                      │
+╰───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+╭───────────────────────────────────────────────────────────────────────────────────────────────────╮
+│ Balance Changes                                                                                   │
+├───────────────────────────────────────────────────────────────────────────────────────────────────┤
+│  ┌──                                                                                              │
+│  │ Owner: Account Address ( 0xfd72aa1c93c65b9487ca060a32bff2851624117d35078f54618384b1e0d16849 )  │
+│  │ CoinType: 0x2::sui::SUI                                                                        │
+│  │ Amount: -24995480                                                                              │
+│  └──                                                                                              │
+╰───────────────────────────────────────────────────────────────────────────────────────────────────╯
