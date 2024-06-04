@@ -2,9 +2,12 @@
 name = "swap"
 version = "0.0.1"
 
+published-at ="0x2d1ee80d8152a1b3f941c915748a680a1467dcdffe3f261527b190deddf8e48a"
+
 
 [dependencies]
-Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "mainnet" }
+Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "framework/testnet" }
 
 [addresses]
-swap = "0x0"
+#swap = "0x0"
+swap = "0x2d1ee80d8152a1b3f941c915748a680a1467dcdffe3f261527b190deddf8e48a"
