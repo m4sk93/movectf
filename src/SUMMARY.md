@@ -9,7 +9,7 @@
     - [flashload](quick/MoveCTF2022_3.md)
 
 
-# part1:move基础知识
+# part1:sui move basic
 
 - [letsmove](letsmove/README.md)
     - [task1](letsmove/task_1.md)
@@ -22,7 +22,7 @@
     - [task8](letsmove/task_8.md)
 
 
-# part2:ctf wp
+# part2:ctf writeup
 
 - [MoveCTF 2024](MoveCTF2024/README.md)
     - [Swap](MoveCTF2024/Swap.md)
