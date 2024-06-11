@@ -18,8 +18,8 @@
     - [task4](letsmove/task_4.md)
     - [task5](letsmove/task_5.md)
     - [task6](letsmove/task_6.md)
-    - [task7](letsmove/task_6.md)
-    - [task8](letsmove/task_6.md)
+    - [task7](letsmove/task_7.md)
+    - [task8](letsmove/task_8.md)
 
 
 # part2:ctf wp
