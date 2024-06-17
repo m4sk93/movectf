@@ -6,7 +6,7 @@
 - [快速入门](quick/README.md)
     - [环境搭建](quick/sui_env.md)
     - [签到题](quick/MoveCTF2022_1.md)
-    - [flashload](quick/MoveCTF2022_3.md)
+    - [flashloan](quick/MoveCTF2022_3.md)
 
 
 # part1:sui move basic
