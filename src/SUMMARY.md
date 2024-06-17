@@ -27,6 +27,8 @@
 - [MoveCTF 2024](MoveCTF2024/README.md)
     - [Swap](MoveCTF2024/Swap.md)
 
+- [JustCTF 2024](JustCTF2024/README.md)
+    - [TOS](JustCTF2024/TOS.md)
 
 # part 3:from CTF to RW
 - [审计](./audit.md)
