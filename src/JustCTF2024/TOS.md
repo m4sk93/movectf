@@ -18,7 +18,7 @@ https://2024.justctf.team/challenges/11
 https://docs.docker.com/engine/install/debian/   
 https://docs.docker.com/compose/install/linux/
 
-2.拉取主办方提供的镜像   
+2.拉取镜像   
 https://hub.docker.com/r/embe221ed/otter_template/tags
 sha256:1868755b24d06342766c54dd6e0516f41b62cec1e992a036f77a0b0401476a04   
 下载需要大概16G磁盘空间
@@ -26,7 +26,7 @@ sha256:1868755b24d06342766c54dd6e0516f41b62cec1e992a036f77a0b0401476a04
 docker pull embe221ed/otter_template:latest
 ```
 
-3.解开woo_docker.tar.gz并修改docker-compose.yml (非必须)
+3.解开tos_docker.tar.gz并修改docker-compose.yml (非必须)
 
 在本地测试时，我改了两个地方:  
 - 添加flag
