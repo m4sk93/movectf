@@ -103,7 +103,8 @@ module solve::solve {
 
 }
 ```
-这道题目的代码只需要插入一行
+TOS这道题目比较简单，相当于一道签到题   
+按照指定顺序取出单词即可，解题代码只需要插入一行   
 ```
         theotterscrolls::cast_spell(vector[1, 0, 3, 3, 3], _spellbook);
 ```
