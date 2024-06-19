@@ -48,7 +48,13 @@ services:
 
 ## 解题
 
+```
+0 % sui --version
+sui 1.27.0-homebrew
+
+```
 首先进入解题框架，把题目的地址(nc连接服务器获得)填入`dependency/Move.toml`
+
 ```
 test@vps ~/justctf/tos/sources/framework-solve
 0 % ls
