@@ -3,15 +3,7 @@
 
 https://2024.justctf.team/challenges 
 
-
-主办方专门编写了比赛框架  
-
-- https://github.com/otter-sec/sui-ctf-framework
-- https://github.com/otter-sec/aptos-ctf-framework
-
-
 有三道blockchain题目，都是sui move的
-
 
 比赛结束后服务器就关了，所以把这三道题部署在了自己服务器上测试
 
