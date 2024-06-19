@@ -29,6 +29,8 @@
 
 - [JustCTF 2024](JustCTF2024/README.md)
     - [TOS](JustCTF2024/TOS.md)
+    - [DB](JustCTF2024/DB.md)
+    - [WOO](JustCTF2024/WOO.md)
 
 # part 3:from CTF to RW
 - [审计](./audit.md)
