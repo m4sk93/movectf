@@ -1,7 +1,6 @@
 # WOO
 
 与上一道题目DB类似，问题还是出在获取奖励上    
-设置黑名单防止重复获取奖励，但是忘记了考虑玩家处于购物状态的情况
 
 https://github.com/m4sk93/movectf/blob/69e71452df1ebddbd552499d35a5248a95b5dd9f/justctf2024/woo/sources/framework-solve/dependency/sources/quest.move#L265-L281
 
@@ -30,6 +29,15 @@ https://github.com/m4sk93/movectf/blob/69e71452df1ebddbd552499d35a5248a95b5dd9f/
     }
 ```
 
+设置黑名单防止重复获取奖励，
+```
+        assert!(player.status != RESTING && player.status != PREPARE_FOR_TROUBLE && player.status != ON_ADVENTURE, WRONG_PLAYER_STATE);
+```
+
+
+
+但是忘记了考虑玩家处于购物状态的情况
+
 ```
     public fun enter_tavern(player: &mut Player): TawernTicket {
         assert!(player.status == RESTING, WRONG_PLAYER_STATE);
@@ -39,3 +47,5 @@ https://github.com/m4sk93/movectf/blob/69e71452df1ebddbd552499d35a5248a95b5dd9f/
         TawernTicket{ total: 0, flag_bought: false }
     }
 ```
+
+玩家可以领取奖励后购物，再领奖，再购物......
