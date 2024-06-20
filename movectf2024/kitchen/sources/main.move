@@ -134,6 +134,57 @@ module kitchen::kitchen {
 
     }
 
+
+
+
+
+    use std::debug;
+    #[test]
+    fun test_recook() {
+    ///public fun recook (out: vector<u8>, status: &mut Status) {
+        let p = Pizza {
+            olive_oils: Cook<Olive_oil> {
+                source: vector<Olive_oil>[
+                    get_Olive_oil(0xb9d9),
+                    get_Olive_oil(0xeb54),
+                    get_Olive_oil(0x9268),
+                    get_Olive_oil(0xc5f7),
+                    get_Olive_oil(0xa1ec),
+                    get_Olive_oil(0xd084),
+                ]
+            },
+            yeast: Cook<Yeast> {
+                source: vector<Yeast>[
+                    get_Yeast(0xbd00),
+                    get_Yeast(0xfc81),
+                    get_Yeast(0x999d),
+                    get_Yeast(0xb77e),
+                ]
+            },
+            flour: Cook<Flour> {
+                source: vector<Flour>[
+                    get_Flour(0xdcc7),
+                    get_Flour(0xcc7a),
+                    get_Flour(0x8f19),
+                    get_Flour(0x96b1),
+                    get_Flour(0x8a6d),
+                ]
+            },
+            salt: Cook<Salt> {
+                source: vector<Salt>[
+                    get_Salt(0x8b01),
+                    get_Salt(0xf1c5),
+                    get_Salt(0xc6ec),
+                ]
+            },
+        };
+
+        let out= bcs::to_bytes(&p);
+        debug::print(&out);
+
+    }
+
+
     public fun get_status(ctx: &mut tx_context::TxContext): Status {
         Status {
             status1: false,
