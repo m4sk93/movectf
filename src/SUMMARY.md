@@ -26,6 +26,8 @@
 
 - [MoveCTF 2024](MoveCTF2024/README.md)
     - [Swap](MoveCTF2024/Swap.md)
+    - [ZK1](MoveCTF2024/ZK1.md)
+    - [ZK2](MoveCTF2024/ZK1.md)
 
 - [JustCTF 2024](JustCTF2024/README.md)
     - [TOS](JustCTF2024/TOS.md)
