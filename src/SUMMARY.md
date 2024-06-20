@@ -27,6 +27,7 @@
 - [MoveCTF 2024](MoveCTF2024/README.md)
     - [Swap](MoveCTF2024/Swap.md)
     - [EasyGame](MoveCTF2024/EasyGame.md)
+    - [Kitchen](MoveCTF2024/Kitchen.md)
     - [ZK1](MoveCTF2024/ZK1.md)
     - [ZK2](MoveCTF2024/ZK1.md)
 

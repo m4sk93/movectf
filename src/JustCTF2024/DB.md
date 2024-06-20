@@ -1,7 +1,7 @@
 # DB
 
 酒馆里有个任务榜单，里面有不超过25个怪兽，击杀可以获取奖励   
-获取奖励的函数存在逻辑漏洞,击杀榜单里第0个怪兽，可以领取所有奖金 
+获取奖励的函数存在逻辑漏洞,击杀榜单里第0个怪兽，可以领取所有怪兽的击杀奖金 
 
 https://github.com/m4sk93/movectf/blob/69e71452df1ebddbd552499d35a5248a95b5dd9f/justctf2024/db/sources/framework-solve/dependency/sources/dark_brotterhood.move#L201-L223
 ```
