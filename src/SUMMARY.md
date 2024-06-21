@@ -32,6 +32,7 @@
     - [Subset](MoveCTF2024/Subset.md)
     - [ZK1](MoveCTF2024/ZK1.md)
     - [ZK2](MoveCTF2024/ZK1.md)
+    - [OttherHub](MoveCTF2024/OttherHub.md)
 
 - [JustCTF 2024](JustCTF2024/README.md)
     - [TOS](JustCTF2024/TOS.md)
