@@ -29,6 +29,7 @@
     - [EasyGame](MoveCTF2024/EasyGame.md)
     - [Kitchen](MoveCTF2024/Kitchen.md)
     - [Dynamic Matrix Traversal](MoveCTF2024/Matrix.md)
+    - [Subset](MoveCTF2024/Subset.md)
     - [ZK1](MoveCTF2024/ZK1.md)
     - [ZK2](MoveCTF2024/ZK1.md)
 
